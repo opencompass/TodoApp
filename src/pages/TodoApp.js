@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function App() {
+export default function TodoApp() {
   const [task, setTask] = useState('');
   const [tasks, setTasks] = useState([]);
 
